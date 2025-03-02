@@ -1,0 +1,47 @@
+# Geometrical Shape Detection and Recognition using Python
+
+## 📌 Project Overview
+This project detects and classifies geometric shapes in images using **OpenCV** and **NumPy**. By leveraging **image processing techniques** such as edge detection, contour approximation, and shape classification, it can recognize various shapes like circles, rectangles, triangles, pentagons, and hexagons.
+
+##  Features
+- **Edge detection** using Canny filter
+- **Contour approximation** to classify shapes
+- **Noise reduction** using morphological operations
+- **Supports multiple shapes** (triangle, rectangle, pentagon, hexagon, circle)
+- **Visualization** of detected shapes using OpenCV and Matplotlib
+
+##  Technologies Used
+- **Python**
+- **OpenCV**
+- **NumPy**
+- **Matplotlib**
+
+##  Installation
+Make sure you have Python installed, then install the dependencies:
+```bash
+pip install opencv-python numpy matplotlib pillow
+```
+
+##  How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Geometric-Shape-Detection.git
+cd Geometric-Shape-Detection
+```
+2. Place an input image (e.g., `shapes3.jpeg`) in the project directory.
+3. Run the Python script:
+```bash
+python shape_detection.py
+```
+4. The detected shapes will be displayed and saved as `output_shapes_detected.jpg`.
+
+##  Example Output
+![Example Output](output_shapes_detected.jpg)
+
+## 🔗 Applications
+- **Computer Vision & Object Recognition**
+- **Autonomous Navigation Systems**
+- **Industrial Quality Inspection**
+
+---
+Feel free to contribute or modify the project! 
